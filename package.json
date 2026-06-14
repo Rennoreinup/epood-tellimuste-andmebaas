@@ -1,0 +1,16 @@
+{
+  "name": "epood-tellimuste-andmebaas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Suuremahuline seedimisskript e-poe andmebaasile (Bun + bun:sqlite + Faker)",
+  "type": "module",
+  "scripts": {
+    "seed": "bun run seed.ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}
